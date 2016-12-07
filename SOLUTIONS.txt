@@ -1,0 +1,42 @@
+Hypothesis:
+
+Firstly, using the events_data json file, we have logs of each and every move the user has done.
+eg: if he has clicked on a offer, if he viewed the offer etc. 
+Hence we now know what sort of offers the user likes/ or the user is intrigued/attracted by.
+Hence we could recommend offers which are quite similar to those offers the user has suggested.(based on his previous events)
+
+This can be done by recommending him K- offers which are closer or related to the offers he himself has used previously!
+This helps us to give the user a personal touch!
+
+Other thing we could do is recommend the most popular offer that Vito app is currently offering,
+Popularity can be found out by no. of time anyone has ever clicked on any offer. Maximum of those are the most popular items.
+
+The implementation is done using GraphLab python.
+You can find the following python notebook attached with the output along with the data provided by you!
+Open the Internship Assignment.ipynb
+
+To install python notebook please follow :
+
+# Create a virtual environment named e.g. gl-env
+virtualenv gl-env
+
+# Activate the virtual environment
+.\gl-env\Scripts\activate
+Step 2: Ensure pip version >= 7
+
+# Make sure pip is up to date
+pip install --upgrade pip
+Step 3: Ensure installation of IPython and IPython Notebook
+
+# Install IPython Notebook (optional)
+pip install "ipython[notebook]"
+Step 4: Install GraphLab Create
+
+# Install your licensed copy of GraphLab Create
+pip install --upgrade --no-cache-dir https://get.graphlab.com/GraphLab-Create/2.1/your registered email address here/your product key here/GraphLab-Create-License.tar.gz
+
+You can download the demo version of graphlab too. It is quite simple!
+
+
+
+
